@@ -1,0 +1,72 @@
+
+        body {
+            background-color: #121118; /* Escolha sua cor preferida */
+        }
+   
+    .center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .logo-img {
+        display: block;
+        margin: 0 auto;
+        width: 800px;
+        max-width: 100%;
+    }
+
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        margin-top: -70px;
+    }
+    
+     .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #891212;
+        padding: 32px 24px;
+        border-radius: 40px;
+        box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+        margin-bottom: -60px;
+        min-width: 300px;
+    }
+
+
+.card input[type="email"],
+.card input[type="password"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.card button {
+    padding: 12px 32px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    background-color: #d32f2f;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s;
+}
+
+.card button:hover {
+    background-color: #a31515;
+}
+
+
+
+    h4{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font: 1em times new roman;
+    }
