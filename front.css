@@ -70,3 +70,21 @@
         text-align: center;
         font: 1em times new roman;
     }
+
+
+   
+     
+    .tabs{display:flex;gap:8px;margin:20px 0}
+    .tab{background:#ef980b;color:#000000;
+    padding:8px 14px;border-radius:6px;border:none;cursor:pointer}
+    .tab.active{background:#ef980b;color:#000000;font-weight:1000}
+    .tab-contents{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+    .tab-column{flex:1 1 300px;background:rgba(228, 222, 222, 0.689);
+    padding:12px;border-radius:6px;min-height:300px}
+    .tab-column h2{margin:0 0 8px}
+    Colocando a aba contato com a mesma fonte da aba sobre nós
+
+
+    # Deixando o plano de fundo dos conteúdos das abas com transparência
+    #contato{background:rgba(228, 222, 222, 0.689)}
+   
